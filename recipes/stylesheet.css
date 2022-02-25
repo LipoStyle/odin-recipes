@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+.title {
+  text-align: center;
+}
+img,
+.ingredients,
+.instructions {
+  display: block;
+  width: 40%;
+}
+.description,
+img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.ingredients {
+  border: 1px solid black;
+  list-style: none;
+  text-align: center;
+  background-color: aquamarine;
+  color: rgb(4, 20, 56);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+.ingredients li,
+.instructions li {
+  border: 1px solid black;
+}
+.instructions {
+  border: 1px solid black;
+  list-style-position: inside;
+  text-align: center;
+  background-color: rgb(116, 81, 148);
+  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+}
